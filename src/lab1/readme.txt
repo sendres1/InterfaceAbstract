@@ -21,10 +21,10 @@ Instructions for Lab #1:
 1. Create an abstract super class that contains COMMON properties and methods
    to be inherited by the sub-classes that are provided.  Course.java
          course
-       |         |
-     introjava    introtoprogramming
-        |
-      advancedjava
+       |          |                  |
+     introjava    advancedjava    introtoprogramming
+       
+      
 2. Modify your sub-classes to take advantage of this inheritance. Will you
    need to re-implement and/or override methods? Will you need to re-declare all
    properties?
