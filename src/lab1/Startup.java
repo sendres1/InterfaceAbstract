@@ -21,8 +21,11 @@ public class Startup {
     Course AbstractJavaSuperClass = new IntroJavaCourse("IntroJava", "-002");
     Course AbstractProgramClass = new IntroToProgrammingCourse("Intro", "-001");
 
-    System.out.println(AbstractProgramClass.getCapitalizedCourseName());
-    System.out.println(AbstractJavaSuperClass.getCapitalizedCourseName());
-    System.out.println(AbstractAdvancedJavaSuperClass.getCapitalizedCourseName());
+    System.out.println(AbstractProgramClass.getCapitalizedCourseName()
+           + "  "       +     AbstractProgramClass.getCourseNumber()       );
+    System.out.println(AbstractJavaSuperClass.getCourseName()
+    + "  "       +     AbstractJavaSuperClass.getCourseNumber()       );
+    System.out.println(AbstractAdvancedJavaSuperClass.getCourseName()
+            + "  "       +     AbstractAdvancedJavaSuperClass.getCourseNumber()       );
 }
 }
