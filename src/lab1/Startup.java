@@ -21,11 +21,22 @@ public class Startup {
     Course AbstractJavaSuperClass = new IntroJavaCourse("IntroJava", "-002");
     Course AbstractProgramClass = new IntroToProgrammingCourse("Intro", "-001");
 
+    AbstractAdvancedJavaSuperClass.setCredits(4);
+    AbstractJavaSuperClass.setCredits(4.0);
+    AbstractProgramClass.setCredits(4.0);
+      
+     AbstractAdvancedJavaSuperClass.setPrerequisites(AbstractJavaSuperClass.getCourseNumber());
+    AbstractJavaSuperClass.setPrerequisites(AbstractProgramClass.getCourseNumber());
+    
     System.out.println(AbstractProgramClass.getCapitalizedCourseName()
            + "  "       +     AbstractProgramClass.getCourseNumber()       );
+    
     System.out.println(AbstractJavaSuperClass.getCourseName()
-    + "  "       +     AbstractJavaSuperClass.getCourseNumber()       );
+    + "  "       +     AbstractJavaSuperClass.getCourseNumber()   
+    + "  "       +     AbstractJavaSuperClass.getPrerequisites()   );
+    
     System.out.println(AbstractAdvancedJavaSuperClass.getCourseName()
-            + "  "       +     AbstractAdvancedJavaSuperClass.getCourseNumber()       );
+            + "  "       +     AbstractAdvancedJavaSuperClass.getCourseNumber() 
+                         +      AbstractAdvancedJavaSuperClass.getPrerequisites()   );
 }
 }
