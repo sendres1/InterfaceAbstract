@@ -14,10 +14,12 @@ public class Startup {
     
      public static void main(String[] args) {
     
-  //  new Course = new IntroJavaCourse(courseName, courseNumber)
+ //   new Course = new IntroJavaCourse(courseName, courseNumber)
     
-    Course course1 = new IntroJavaCourse("course1", "11111");
-    
+  //  Course course1 = new IntroJavaCourse("course1", "11111");
+    Course AbstractAdvancedJavaSuperClass = new AdvancedJavaCourse("AdvancedJava", "-003");
+    Course AbstractJavaSuperClass = new IntroJavaCourse("IntroJava", "-002");
+    Course AbstractProgramClass = new IntroToProgrammingCourse("Intro", "-001");
 //    Dog dog1 = new Dog();
 //        
 //        // all animals can do this...
