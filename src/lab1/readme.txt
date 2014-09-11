@@ -27,13 +27,15 @@ Instructions for Lab #1:
       
 2. Modify your sub-classes to take advantage of this inheritance. Will you
    need to re-implement and/or override methods? Will you need to re-declare all
-   properties?
+   properties?  Will need to override methods were variables are not defined in the 
+super class - preqs.  No need to re-declare any properties
 3. Fix any and all encapsulation problems.
 4. Create a startup class to test your code. In this startup class create and
    use at least one instance of each sub-class.
 5. In the startup class document what you think is good or bad about this
    architecture from the perspective of using abstraction and inheritance.
-   (Remember, a startup class must have a main method)
+   (Remember, a startup class must have a main method).  Unlimited classes can be declared.
+no need to redefine variables or methods that are common to all classes.
 6. When declaring variables in your startup class consider using the 
    Liskov Substitution principle. This is where you declare a variable using
    it's abstract type. For example, you could do this:
@@ -45,6 +47,7 @@ Instructions for Lab #1:
    AdvancedJavaCourse course = new AdvancedJavaCourse();
 
    Consider when this is advantageous and when it isn't. Provide a comment
-   that explains your position.
+   that explains your position.  It had something to do with polymorphisim...
+declaring many types of classes.
 
 
