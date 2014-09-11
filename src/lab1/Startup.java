@@ -20,12 +20,9 @@ public class Startup {
     Course AbstractAdvancedJavaSuperClass = new AdvancedJavaCourse("AdvancedJava", "-003");
     Course AbstractJavaSuperClass = new IntroJavaCourse("IntroJava", "-002");
     Course AbstractProgramClass = new IntroToProgrammingCourse("Intro", "-001");
-//    Dog dog1 = new Dog();
-//        
-//        // all animals can do this...
-//        dog1.setAge(5);
-//        dog1.setName("Fido");
-//        System.out.print("Dog 1 says: ");
-//        dog1.speak();
+
+    System.out.println(AbstractProgramClass.getCapitalizedCourseName());
+    System.out.println(AbstractJavaSuperClass.getCapitalizedCourseName());
+    System.out.println(AbstractAdvancedJavaSuperClass.getCapitalizedCourseName());
 }
 }
