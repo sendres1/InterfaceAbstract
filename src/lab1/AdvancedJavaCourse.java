@@ -9,9 +9,9 @@ import javax.swing.JOptionPane;
  * @version     1.00
  */
 public class AdvancedJavaCourse {
-    String courseName;
-    private String courseNumber;
-    private double credits;
+//    String courseName;
+//    private String courseNumber;
+//    private double credits;
     private String prerequisites;
 
     public AdvancedJavaCourse(String courseName, String courseNumber) {
