@@ -19,9 +19,9 @@ public class AdvancedJavaCourse extends Course {
         this.setCourseNumber(courseNumber);
     }
 
-    public String getCapitalizedCourseName() {
-        return this.getCourseName().toUpperCase();
-    }
+//    public String getCapitalizedCourseName() {
+//        return this.getCourseName().toUpperCase();
+//    }
 
 
     public String getPrerequisites() {
@@ -46,20 +46,20 @@ public class AdvancedJavaCourse extends Course {
         this.setCredits(credits);
     }
 
-    public String getCourseName() {
-        return courseName;
-    }
+//    public String getCourseName() {
+//        return courseName;
+//    }
 
-    public void setCourseName(String courseName) {
-        this.courseName = courseName;
-    }
-
-    public String getCourseNumber() {
-        return courseNumber;
-    }
-
-    public void setCourseNumber(String courseNumber) {
-        this.courseNumber = courseNumber;
-    }
+//    public void setCourseName(String courseName) {
+//        this.courseName = courseName;
+//    }
+//
+////    public String getCourseNumber() {
+////        return courseNumber;
+////    }
+//
+//    public void setCourseNumber(String courseNumber) {
+//        this.courseNumber = courseNumber;
+//    }
     
 }
