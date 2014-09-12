@@ -25,6 +25,8 @@ public class Startup {
     AbstractJavaSuperClass.setCredits(4.0);
     AbstractProgramClass.setCredits(4.0);
       
+    //this is a test
+    
      AbstractAdvancedJavaSuperClass.setPrerequisites(AbstractJavaSuperClass.getCourseNumber());
     AbstractJavaSuperClass.setPrerequisites(AbstractProgramClass.getCourseNumber());
     
