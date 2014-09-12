@@ -28,14 +28,14 @@ public interface Course {
 
     public abstract String getCourseNumber();
 
-    public abstract void setCourseNumber();
+    public abstract void setCourseNumber(String courseNumber);
 
-    public abstract void setCredits();
+    public abstract void setCredits(double credits);
 
-    public abstract void setCourseName();
+    public abstract void setCourseName(String courseName);
 
     public abstract String getPrerequisites();
 
-    public abstract void setPrerequisites();
+    public abstract void setPrerequisites(String preRequisites);
 
 }
