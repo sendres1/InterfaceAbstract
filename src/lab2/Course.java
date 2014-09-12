@@ -13,20 +13,15 @@ import javax.swing.JOptionPane;
  * @author sendres1
  */
 
- 
 
-
-
-public abstract class Course {
-    private String courseName;
-    private String courseNumber;
-    private double credits; 
-    
-    public static void main(String[] args) {
-    
-    
-        
-    }
+public interface Course {
+//    String courseName;
+//    private String courseNumber;
+//    private double credits; 
+// 
+//  public static void main(String[] args) {
+//               
+//    }
     
 public final String getCourseName() {
         return courseName;
