@@ -69,12 +69,12 @@ public class IntroJavaCourse implements Course {
     
      
         
-public final String getCourseName() {
+public String getCourseName() {
         return courseName;
 
     }
 
-public final String  getCapitalizedCourseName() {
+public String  getCapitalizedCourseName() {
         return this.getCourseName().toUpperCase();
     }
 
