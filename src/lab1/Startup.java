@@ -35,7 +35,7 @@ public class Startup {
     
     System.out.println(AbstractJavaSuperClass.getCourseName()
     + "  "       +     AbstractJavaSuperClass.getCourseNumber()   
-    + "  "       +     AbstractJavaSuperClass.getPrerequisites()   );
+    + "  "       +     AbstractJavaSuperClass.getPrerequisites());
     
     System.out.println(AbstractAdvancedJavaSuperClass.getCourseName()
             + "  "       +     AbstractAdvancedJavaSuperClass.getCourseNumber() 
