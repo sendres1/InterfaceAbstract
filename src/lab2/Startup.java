@@ -19,6 +19,8 @@ public class Startup {
  //   new Course = new IntroJavaCourse(courseName, courseNumber)
     
   //  Course course1 = new IntroJavaCourse("course1", "11111");
+         
+  //       Can use Liskov Substitution principle for all classes!
     Course AbstractAdvancedJavaSuperClass = new AdvancedJavaCourse("AdvancedJava", "-003");
     Course AbstractJavaSuperClass = new IntroJavaCourse("IntroJava", "-002");
     Course AbstractProgramClass = new IntroToProgrammingCourse("Intro", "-001");
