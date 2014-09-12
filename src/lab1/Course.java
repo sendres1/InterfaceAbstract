@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author emitchell7
  */
-public class Course {
+public abstract class Course {
     private String courseName;
     private String courseNumber;
     private double credits; 
@@ -23,22 +23,22 @@ public class Course {
         
     }
     
-private String getCourseName() {
+public final String getCourseName() {
         return courseName;
 
     }
 
-private String getCapitalizedCourseName() {
+public final String  getCapitalizedCourseName() {
         return this.getCourseName().toUpperCase();
     }
 
 
-private double getCredits() {
+public final double getCredits() {
         return credits;
     }
 
 
- public String getCourseNumber() {
+ public final String getCourseNumber() {
         return courseNumber;
     }
 
@@ -93,6 +93,14 @@ private double getCredits() {
 //    void setPrerequisites(String courseNumber) {
 //        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
 //    }
+
+//  this procedure should be overriden in classes that have prereqs.    
+     public String getPrerequisites() {
+        return null;
+ //            return = " ";
+    }
+
+    
     
      public void setPrerequisites(String prerequisites) {
         if(prerequisites == null || prerequisites.length() == 0) {
