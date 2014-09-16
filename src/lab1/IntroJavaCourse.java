@@ -3,7 +3,7 @@ package lab1;
 /**
  * Describe responsibilities here.
  *
- * @author      your name goes here
+ * @author      sendres1
  * @version     1.00
  */
 public class IntroJavaCourse extends Course{
@@ -32,10 +32,12 @@ public class IntroJavaCourse extends Course{
 //    }
 
 
+    @Override
     public String getPrerequisites() {
         return prerequisites;
     }
 
+    @Override
     public void setPrerequisites(String prerequisites) {
         this.prerequisites = prerequisites;
     }

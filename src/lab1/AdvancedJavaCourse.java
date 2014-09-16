@@ -24,6 +24,7 @@ public class AdvancedJavaCourse extends Course {
 //    }
 
 
+    @Override
     public String getPrerequisites() {
         return prerequisites;
     }
